@@ -12,6 +12,7 @@ body {
   --black: #111;
   --gray: #f2f2f2;
   --white: 255, 255, 255;
+  --red: #f50e0e;
 }
 
 form {
