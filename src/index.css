@@ -1,0 +1,20 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--gray);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #111;
+  --gray: #f2f2f2;
+  --white: 255, 255, 255;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}

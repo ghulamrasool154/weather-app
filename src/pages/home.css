@@ -1,0 +1,43 @@
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+}
+.home-page .container {
+  width: 100%;
+}
+.wrapper {
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid var(--black);
+  padding: 2rem;
+}
+
+.app-title {
+  color: var(--white);
+
+  font-size: 45px;
+  line-height: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-message {
+  color: var(--red);
+  padding: 10px;
+  margin-top: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .app-title {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .wrapper {
+    margin: 10px auto;
+  }
+}
