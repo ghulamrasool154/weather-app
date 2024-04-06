@@ -1,9 +1,7 @@
 import { axiosInstance } from "../utils/axios-instance";
 
-const appid = "1d3b4e1f32a3aada03e12eced95acd08";
-
 export const handleGETWeatherDetail = async (city: string) => {
-  const url = `data/2.5/weather?q=${city}&appid=${appid}`;
+  const url = `data/2.5/weather?q=${city}&appid=${process.env.REACT_WEATHER_AP_ID}`;
 
   try {
     const resp = await axiosInstance.get(url);
